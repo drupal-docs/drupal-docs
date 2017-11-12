@@ -17,7 +17,7 @@
 
 支付时请留言为：“drupal文档资助”
 
-<img width="200" src="wechat.png"></img>
+<img width="300" src="wechat.png"></img>
 
 ## 项目计划
 本项目计划分为5个阶段：
