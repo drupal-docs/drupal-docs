@@ -21,11 +21,11 @@
 <img width="300" src="wechat.png"></img>
 <img width="300" src="alipay.jpg"></img>
 
-## 项目计划
+## 如何进行翻译工作
 本项目计划分为5个阶段：
 - 招募[项目组成员](members.md)(正在进行，已招募`5`/`53`)
-- 培训[翻译流程，工具技能](workflow-and-tools.md)
-- 分配[翻译任务](task-assign.md)
+- 学习[翻译流程、规范](workflow-and-tools.md)
+- 选择[翻译任务](task-assign.md)
 - 翻译质量审查
 - 提交到drupal.org
 
