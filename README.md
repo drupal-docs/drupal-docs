@@ -15,6 +15,8 @@
 
 每一位资助人，都会在 [这里列出资助明细](money-contrib-detail.md)。
 
+支付时请留言为：“drupal文档资助”
+
 <img width="200" src="wechat.png"></img>
 
 ## 项目计划
