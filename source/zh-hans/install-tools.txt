@@ -1,0 +1,79 @@
+[[install-tools]]
+
+=== 概念：附加工具
+
+[role="summary"]
+概述：帮助建站者快捷建立站点的附加工具
+
+(((工具,Coder)))
+(((工具,Devel)))
+(((工具,Drush)))
+(((工具,Firebug)))
+(((工具,Git)))
+(((Coder,概述)))
+(((Devel,概述)))
+(((Drush,概述)))
+(((Firebug,概述)))
+(((Git,概述)))
+(((Drupal 控制台,概述)))
+
+// ==== 预备知识
+
+==== 适合建站人员的工具有哪些？
+
+以下列出一些可用的附加工具，它们能帮助你更快速、准确、有效率的建立站点。
+
+Drush::
+  有关 Drush 的更多信息，请参见下文。
+Git::
+  http://git-scm.com[Git] 是一个版本控制系统，您可以用来跟踪整个网站或只是与您所使用模块
+  或主题相关的文件所做的更改。Git 让试更改成为了可能，如果需要，可以退回到上一个版本。它也可
+  以用于跟踪配置文件的更改并同步不同站点的配置。Git 已成为 Web 开发项目的标准配备。
+Devel::
+  https://www.drupal.org/project/devel[contributed Devel module]有助于开发相关的任
+  务，如代码的调试和检查、数据库请求分析及生成虚拟内容。
+
+==== Drush 的特别之处是什么?
+
+http://www.drush.org[Drush] 是一种用于构建和维护站点的命令行工具，为许多使用管理界面的操
+作提供了一种替代方法。考虑到安装和学习使用 Drush 更有效率，只要条件允许，许多建站人员和站点
+维护人员更倾向于使用 Drush。考虑使用 Drush 的理由如下：
+
+* Drush 为各种任务提供了大量的命令，如：安装基本软件、模块和主题，软件升级，执行数据库的操作、
+复制和查询，重置密码及清除缓存等。一些贡献模块和主题也定义了 Drush 命令。
+* 使用 Drush 执行管理任务比通过管理界面执行相同任务更快，更简便。
+* 由于 Drush 是一个命令行界面，您可以在服务器上编写脚本，脚本可以组合 Drush 命令和其他命令，
+用来自动执行更复杂的任务。
+* Drush 提供了无法通过管理界面实现的附加功能; 例如，运行数据库查询。
+如果你想要使用 Drush，你需要有命令行终端访问托管你网站的服务器，并且在服务器上应安装 Drush
+工具的兼容版本。访问 http://www.drush.org[Drush网站] 查看安装指南和版本兼容性。站点有一
+些关于可用的 Drush 命令文档。
+
+==== 适合模块和主题开发人员的工具有哪些？
+
+除了上面提到的网站构建工具，以下工具对于模块和主题开发人员很有用。
+
+Drupal 控制台::
+  https://drupalconsole.com[Drupal控制台]是一个命令行工具，用来生成模板代码与 Drupal 网
+  站进行交互。Drupal 控制台能够生成区块或表单代码，安装模块和主题及创建虚构内容。可以用 Symfony
+  控制台来代替 Drupal 控制台。
+Coder::
+  https://www.drupal.org/project/coder[编码器] 是一种命令行工具，用来检查模块和主题是否
+  满足编码标准或其他的最佳实践。它也能修正不满足编码标准的代码。
+Firebug::
+  http://getfirebug.com[Firebug]是火狐的一个插件，它允许在单独的浏览器窗口中查看，编辑，
+  调试和监控 CSS，HTML 和 JavaScript 代码。https://www.drupal.org/project/drupalforfire
+  bug[Drupal 的 Firebug 模块] 在 Firebug 窗口中显示 Drupal 调试和 SQL 查询信息。
+
+// ==== 相关主题
+
+==== 更多资源
+
+https://www.drupal.org/node/147789[Drupal 文档：开发工具]
+
+
+*责任者*
+
+写作和编辑: https://www.drupal.org/u/batigolix[Boris Doesborg]和
+https://www.drupal.org/u/jhodgdon[Jennifer Hodgdon]；
+翻译: https://www.drupal.org/u/rabphito[周宇]
