@@ -14,13 +14,13 @@
 
 - attributions.txt 
 
-- block-concept.txt (司南 164713332@qq.com)
+- `block-concept.txt`       司南 [solody](https://github.com/solody)
 
-- block-create-custom.txt (司南 164713332@qq.com)
+- `block-create-custom.txt` 司南 [solody](https://github.com/solody)
 
-- block-place.txt (司南 164713332@qq.com)
+- `block-place.txt`         司南 [solody](https://github.com/solody)
 
-- block-regions.txt (司南 164713332@qq.com)
+- `block-regions.txt`       司南 [solody](https://github.com/solody)
 
 - config-basic.txt
 
