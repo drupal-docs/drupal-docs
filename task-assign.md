@@ -188,7 +188,7 @@
 
 - understanding-gpl.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
-- understanding-modules.txt 
+- understanding-modules.txt 冉强军 [jungle](https://drupal.org/u/jungle)
  
 - understanding-project.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
