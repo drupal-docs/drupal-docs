@@ -1,2 +1,23 @@
-# drupal-docs-contrib-guide
-Drupal文档翻译指南
+# Drupal文档翻译项目
+
+为了降低drupal的学习门槛和成本，我们发起了官方的[用户指南](https://www.drupal.org/zh-hans/docs/user_guide/zh-hans/index.html)文档翻译项目。
+
+共105个文件需要翻译，计划每人翻译两个文件，因此计划招募53人。
+感谢您的加入！
+
+目前正在进行成员招募，已招募49人，就等你一个了！
+马上加入QQ群：`453813222`
+
+
+## 项目计划
+本项目计划分为5个阶段：
+- 招募[项目组成员](members.md)(正在进行，已招募`49`/`53`)
+- 培训[翻译流程，工具技能](workflow-and-tools.md)
+- 分配[翻译任务](task-assign.md)
+- 翻译质量审查
+- 提交到drupal.org
+
+
+https://www.drupal.org/project/issues/user_guide?component=ZH-HANS+translation
+
+
