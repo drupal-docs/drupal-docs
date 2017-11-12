@@ -1,4 +1,4 @@
-- 龙马 178425145@qq.com
-- Jungle 121327892@qq.com
-- 司南 164713332@qq.com
+- 龙马 
+- Jungle [jungleran](https://github.com/solody)
+- 司南 [solody](https://github.com/solody)
 - 下一个就是你！

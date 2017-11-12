@@ -8,7 +8,7 @@
 我们需要做的是，把 [soiurce/en](http://cgit.drupalcode.org/user_guide/tree/source/en) 目录下的文件全部翻译为中文。
 然后放到本git库的 [source/zh-hans](source/zh-hans)目录中。
 
-各成员可以自由选择自己想翻译的文件，请在自己选择的文件后面标上自己的昵称和QQ号，以防止与他人重复工作。
+各成员可以自由选择自己想翻译的文件，请在自己选择的文件后面标上自己的 [昵称和github ID](members.md)，以防止与他人重复工作。
 
 ## 任务明细
 
