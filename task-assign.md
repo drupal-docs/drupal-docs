@@ -42,7 +42,7 @@
 
 - content-paths.txt
 
-- copyright.txt
+- copyright.txt @jungleran
 
 - extend-config-versions.txt
 
@@ -64,7 +64,7 @@
 
 - guide-docinfo.xml
 
-- guide.txt
+- guide.txt @jungleran
 
 - install-composer.txt
 
@@ -74,11 +74,11 @@
 
 - install-prepare.txt
 
-- install-requirements.txt
+- install-requirements.txt @jungle
 
 - install-run.txt
 
-- install-tools.txt
+- install-tools.txt @jungleran
 
 - language-add.txt
 
@@ -180,19 +180,19 @@
 
 - thoughts-support.txt
 
-- understanding-data.txt
+- understanding-data.txt @jungleran
 
-- understanding-distributions.txt
+- understanding-distributions.txt @jungleran
 
-- understanding-drupal.txt
+- understanding-drupal.txt @jungleran
 
-- understanding-gpl.txt
+- understanding-gpl.txt @jungleran
 
-- understanding-modules.txt
+- understanding-modules.txt 
+ 
+- understanding-project.txt @jungleran
 
-- understanding-project.txt
-
-- understanding-themes.txt
+- understanding-themes.txt @jungleran
 
 - user-admin-account.txt
 
@@ -210,10 +210,10 @@
 
 - views-block.txt
 
-- views-concept.txt
+- views-concept.txt @jungle
 
 - views-create.txt
 
-- views-duplicate.txt
+- views-duplicate.txt 
 
-- views-parts.txt
+- views-parts.txt @jungleran
