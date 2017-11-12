@@ -2,9 +2,20 @@
 
 ### 流程
 - Fork 本项目作为你的一个新仓库。
-- 提交工作成果到你Fork的仓库。
-- 发起一个Pull Request.
-- 原仓库管理员审查后，合并您的提交。
+- 把Fork下来的新仓库clone到你的本地。
+- 到[任务页](task-assign.md)标选您要翻译的文件。
+- 提交您的标选修改。
+- 发起一个Pull Request。
+- 原仓库管理员接受你的任务选择。
+- 到[drupal英文文档仓库](http://cgit.drupalcode.org/user_guide/tree/source/en)复制你要翻译的文件，放到本项目的[source/zh-hans目录](source/zh-hans)中，并翻译文件。
+- 提交工作成果。
+- 发起一个Pull Request。
+- 原仓库管理员审查后，合并您的工作成果。
+
+### Git 和 pull request
+git就不解释了，请百度。
+
+[关于Pull Request的介绍](https://www.zhihu.com/question/21682976)
 
 
 ### AsciiDoc
