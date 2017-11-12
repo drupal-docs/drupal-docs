@@ -8,7 +8,7 @@
 我们需要做的是，把 [soiurce/en](http://cgit.drupalcode.org/user_guide/tree/source/en) 目录下的文件全部翻译为中文。
 然后放到本git库的 [source/zh-hans](source/zh-hans)目录中。
 
-各成员可以自由选择自己想翻译的文件，请在自己选择的文件后面标上自己的 [昵称和github ID](members.md)，以防止与他人重复工作。
+各成员可以自由选择自己想翻译的文件，请在自己选择的文件后面标上自己的 [姓名（最好是真实姓名，会在将翻译提交到 Drupal 官网时，署名责任者时使用）和 Drupal 官网账号的链接](members.md)，以防止与他人重复工作。
 
 ## 任务明细
 
@@ -42,7 +42,7 @@
 
 - content-paths.txt
 
-- copyright.txt [jungle](https://drupal.org/u/jungle)
+- copyright.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - extend-config-versions.txt
 
@@ -64,7 +64,7 @@
 
 - guide-docinfo.xml
 
-- guide.txt [jungle](https://drupal.org/u/jungle)
+- guide.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - install-composer.txt
 
@@ -74,11 +74,11 @@
 
 - install-prepare.txt
 
-- install-requirements.txt [jungle](https://drupal.org/u/jungle)
+- install-requirements.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - install-run.txt
 
-- install-tools.txt [jungle](https://drupal.org/u/jungle)
+- install-tools.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - language-add.txt
 
@@ -180,19 +180,19 @@
 
 - thoughts-support.txt
 
-- understanding-data.txt [jungle](https://drupal.org/u/jungle)
+- understanding-data.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
-- understanding-distributions.txt [jungle](https://drupal.org/u/jungle)
+- understanding-distributions.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
-- understanding-drupal.txt [jungle](https://drupal.org/u/jungle)
+- understanding-drupal.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
-- understanding-gpl.txt [jungle](https://drupal.org/u/jungle)
+- understanding-gpl.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - understanding-modules.txt 
  
-- understanding-project.txt [jungle](https://drupal.org/u/jungle)
+- understanding-project.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
-- understanding-themes.txt [jungle](https://drupal.org/u/jungle)
+- understanding-themes.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - user-admin-account.txt
 
@@ -210,10 +210,10 @@
 
 - views-block.txt
 
-- views-concept.txt [jungle](https://drupal.org/u/jungle)
+- views-concept.txt 冉强军 [jungle](https://drupal.org/u/jungle)
 
 - views-create.txt
 
 - views-duplicate.txt 
 
-- views-parts.txt [jungle](https://drupal.org/u/jungle)
+- views-parts.txt 冉强军 [jungle](https://drupal.org/u/jungle)
