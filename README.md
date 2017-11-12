@@ -22,7 +22,7 @@
 <img width="300" src="alipay.jpg"></img>
 
 ## 如何进行翻译工作
-本项目计划分为5个阶段：
+
 - 成为[项目组成员](members.md)(正在进行，已招募`5`/`53`)
 - 学习[翻译流程、规范](workflow-and-tools.md)
 - 选择[翻译任务](task-assign.md)
