@@ -1,4 +1,6 @@
 - 龙马 
-- Jungle [jungleran](https://github.com/solody)
-- 司南 [solody](https://github.com/solody)
+- Jungle [jungleran](https://github.com/jungleran) 121327892
+- 司南 [solody](https://github.com/solody) 164713332
+- 信勇 [todaylion](https://github.com/todaylion) 10586988
+- 有新 [youxin99](https://github.com/youxin99) 1987066557
 - 下一个就是你！
