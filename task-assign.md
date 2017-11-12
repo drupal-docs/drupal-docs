@@ -42,7 +42,7 @@
 
 - content-paths.txt
 
-- copyright.txt @jungleran
+- copyright.txt [jungle](https://github.com/jungleran)
 
 - extend-config-versions.txt
 
@@ -64,7 +64,7 @@
 
 - guide-docinfo.xml
 
-- guide.txt @jungleran
+- guide.txt [jungle](https://github.com/jungleran)
 
 - install-composer.txt
 
@@ -74,11 +74,11 @@
 
 - install-prepare.txt
 
-- install-requirements.txt @jungle
+- install-requirements.txt [jungle](https://github.com/jungleran)
 
 - install-run.txt
 
-- install-tools.txt @jungleran
+- install-tools.txt [jungle](https://github.com/jungleran)
 
 - language-add.txt
 
@@ -180,19 +180,19 @@
 
 - thoughts-support.txt
 
-- understanding-data.txt @jungleran
+- understanding-data.txt [jungle](https://github.com/jungleran)
 
-- understanding-distributions.txt @jungleran
+- understanding-distributions.txt [jungle](https://github.com/jungleran)
 
-- understanding-drupal.txt @jungleran
+- understanding-drupal.txt [jungle](https://github.com/jungleran)
 
-- understanding-gpl.txt @jungleran
+- understanding-gpl.txt [jungle](https://github.com/jungleran)
 
 - understanding-modules.txt 
  
-- understanding-project.txt @jungleran
+- understanding-project.txt [jungle](https://github.com/jungleran)
 
-- understanding-themes.txt @jungleran
+- understanding-themes.txt [jungle](https://github.com/jungleran)
 
 - user-admin-account.txt
 
@@ -210,10 +210,10 @@
 
 - views-block.txt
 
-- views-concept.txt @jungle
+- views-concept.txt [jungle](https://github.com/jungleran)
 
 - views-create.txt
 
 - views-duplicate.txt 
 
-- views-parts.txt @jungleran
+- views-parts.txt [jungle](https://github.com/jungleran)
