@@ -42,7 +42,7 @@
 
 - content-paths.txt
 
-- copyright.txt [jungle](https://github.com/jungleran)
+- copyright.txt [jungle](https://drupal.org/u/jungle)
 
 - extend-config-versions.txt
 
@@ -64,7 +64,7 @@
 
 - guide-docinfo.xml
 
-- guide.txt [jungle](https://github.com/jungleran)
+- guide.txt [jungle](https://drupal.org/u/jungle)
 
 - install-composer.txt
 
@@ -74,11 +74,11 @@
 
 - install-prepare.txt
 
-- install-requirements.txt [jungle](https://github.com/jungleran)
+- install-requirements.txt [jungle](https://drupal.org/u/jungle)
 
 - install-run.txt
 
-- install-tools.txt [jungle](https://github.com/jungleran)
+- install-tools.txt [jungle](https://drupal.org/u/jungle)
 
 - language-add.txt
 
@@ -180,19 +180,19 @@
 
 - thoughts-support.txt
 
-- understanding-data.txt [jungle](https://github.com/jungleran)
+- understanding-data.txt [jungle](https://drupal.org/u/jungle)
 
-- understanding-distributions.txt [jungle](https://github.com/jungleran)
+- understanding-distributions.txt [jungle](https://drupal.org/u/jungle)
 
-- understanding-drupal.txt [jungle](https://github.com/jungleran)
+- understanding-drupal.txt [jungle](https://drupal.org/u/jungle)
 
-- understanding-gpl.txt [jungle](https://github.com/jungleran)
+- understanding-gpl.txt [jungle](https://drupal.org/u/jungle)
 
 - understanding-modules.txt 
  
-- understanding-project.txt [jungle](https://github.com/jungleran)
+- understanding-project.txt [jungle](https://drupal.org/u/jungle)
 
-- understanding-themes.txt [jungle](https://github.com/jungleran)
+- understanding-themes.txt [jungle](https://drupal.org/u/jungle)
 
 - user-admin-account.txt
 
@@ -210,10 +210,10 @@
 
 - views-block.txt
 
-- views-concept.txt [jungle](https://github.com/jungleran)
+- views-concept.txt [jungle](https://drupal.org/u/jungle)
 
 - views-create.txt
 
 - views-duplicate.txt 
 
-- views-parts.txt [jungle](https://github.com/jungleran)
+- views-parts.txt [jungle](https://drupal.org/u/jungle)
