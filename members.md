@@ -3,4 +3,5 @@
 - 司南 [solody](https://github.com/solody) 164713332
 - 信勇 [todaylion](https://github.com/todaylion) 10586988
 - 有新 [youxin99](https://github.com/youxin99) 1987066557
+- Ivan [ivanzhu](https://github.com/ivanzhu) 552382568
 - 下一个就是你！
