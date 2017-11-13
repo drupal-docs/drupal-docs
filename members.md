@@ -4,4 +4,5 @@
 - 信勇 [todaylion](https://github.com/todaylion) 10586988
 - 有新 [youxin99](https://github.com/youxin99) 1987066557
 - Ivan [ivanzhu](https://github.com/ivanzhu) 552382568
+- churis [lara-shukdr](https://github.com/lara-shukdr) 2133751350
 - 下一个就是你！
