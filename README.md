@@ -1,4 +1,4 @@
-# Drupal文档翻译项目
+# Drupal8《用户指南》文档翻译项目
 
 为了降低drupal的学习门槛和成本，我们发起了官方的[用户指南](https://www.drupal.org/zh-hans/docs/user_guide/zh-hans/index.html)文档翻译项目。
 
