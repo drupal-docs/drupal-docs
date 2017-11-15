@@ -3,7 +3,7 @@
 
 姓名|Github ID|Drupal ID|扣
 :-|:-:|:-:|:-
-龙马|||
+龙马||[jackniu](https://www.drupal.org/u/jackniu) | 178425145
 Jungle | [jungleran](https://github.com/jungleran) | [jungle](https://www.drupal.org/u/jungle) | 121327892
 司南 | [solody](https://github.com/solody) | [edwinkent](https://www.drupal.org/u/edwinkent) | 164713332
 信勇 | [todaylion](https://github.com/todaylion) | | 10586988
