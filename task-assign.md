@@ -90,13 +90,13 @@
 
 - language-content-translate.txt
 
-- menu-concept.txt
+- menu-concept.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-home.txt
+- menu-home.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-link-from-content.txt
+- menu-link-from-content.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-reorder.txt
+- menu-reorder.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
 
 - planning-data-types.txt
 
