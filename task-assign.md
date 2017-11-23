@@ -90,13 +90,13 @@
 
 - language-content-translate.txt
 
-- menu-concept.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
+- menu-concept.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-home.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
+- menu-home.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-link-from-content.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
+- menu-link-from-content.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- menu-reorder.txt 泓淑 [churis](https://www.drupal.org/u/lara-shukdr)
+- menu-reorder.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
 - planning-data-types.txt
 
@@ -128,19 +128,19 @@
 
 - prevent-status.txt
 
-- security-announce.txt
+- security-announce.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-concept.txt
+- security-concept.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-cron-concept.txt
+- security-cron-concept.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-cron.txt
+- security-cron.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-update-core.txt
+- security-update-core.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-update-module.txt
+- security-update-module.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
-- security-update-theme.txt
+- security-update-theme.txt 泓 [churis](https://www.drupal.org/u/lara-shukdr)
 
 - structure-adding-reference.txt
 
