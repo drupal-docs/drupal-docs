@@ -1,0 +1,83 @@
+[[menu-link-from-content]]
+=== 添加页面到导航
+
+[role="summary"]
+如何将页面添加到导航.
+
+(((菜单,添加链接到页面)))
+(((页面,编辑时添加到菜单)))
+(((内容,编辑时添加到菜单)))
+(((导航,链接菜单到页面)))
+
+==== 目标
+
+添加页面到导航. 例如, 该关于页面.
+
+==== 必备知识
+
+* <<menu-concept>>
+* <<content-edit>>
+
+==== 网站的所需条件
+
+管业页面必须在项目中存在. 参见 <<content-create>>.
+
+==== 步骤
+
+. 在此 _Manage_ administrative menu, 导航至 to _Content_ (_admin/content_).
+
+. 找到“关于”页面, 然后点击 _Edit_ in 此行. 
+出现编辑菜单.
++
+--
+// 来自 admin/content page 页面的内容表格, 在 Edit 处有有个红色边框
+// 关于页面的按钮.
+image:images/menu-link-from-content_edit_page.png["Page edit link",width="100%"]
+--
+
+. 点击Click _Menu settings_ 并在右侧展开它.
+
+.检查 _Provide a menu link_ 以菜单选项显示.
+
+. 输入下表中的值:
++
+[width="100%",frame="topbot",options="header"]
+|================================
+|Field name |Explanation |Example value
+|Menu link title |将在菜单中显示的标题 | About
+|Description |当访问者悬停在链接上时将显示的文本
+  |History of the market
+|Parent item |页面在菜单层次结构中的位置. 例如,
+  如果选择 _<Main navigation>_, 页面将位于顶层导航. 通过选择另一个菜单项作为父项.|<Main navigation>
+|Weight|页面出现在菜单中的顺序 (权重较低菜单项将显示在较高权重的菜单项之前) | -2
+|================================
++
+--
+// 内容编辑页面的菜单设置选项.
+image:images/menu-link-from-content.png["Creating a menu link from within the content edit form"]
+--
+
+. 点击 _Save 发布 published_ 并保存设置. 点击 _Home_ or _Return
+to site_ 在导航栏查看结果, 如下图所示.
++
+--
+// 添加关于导航后的主页.
+image:images/menu-link-from-content-result.png["Link has been added to the main menu",width="100%"]
+--
+
+==== 扩展你的理解
+
+<<menu-reorder>>
+
+==== 其他资源
+
+https://www.drupal.org/docs/8/core/modules/menu[_Drupal.org_ community documentation page "Working with menus"]
+
+
+*归因*
+
+改编自 https://www.drupal.org/u/batigolix[Boris Doesborg] from
+https://www.drupal.org/docs/8/core/modules/menu["Working with Menus"],
+版权 2000-2017 由个人贡献所有
+https://www.drupal.org/documentation[Drupal Community Documentation];
+edited by https://www.drupal.org/u/jerseycheese[Jack Haas].

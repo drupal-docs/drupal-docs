@@ -1,0 +1,64 @@
+[[menu-home]]
+
+=== 为你的网站首页设定
+
+[role="summary"]
+如何配置内容以使它显示在主页。
+
+(((首页,配置)))
+(((首页,配置)))
+(((配置,主页)))
+
+
+==== 目标
+
+配置哪些内容项目显示为您网站的首页.
+
+//==== 必备知识
+
+==== 网站的先决条件
+
+您要指定为网站首页的内容项目必须存在. 参考 <<content-create>>.
+
+==== 步骤
+
+. 在此 _Manage_ 管理菜单, 导航 _Configuration_ > _System_ >
+_Basic site settings_ (_admin/config/system/site-information_).
+
+. 以下 _Front page_, 替换 _/node_ 为您所在页面的名称. 
+要使用以前的主页创建, provide its path _/home_. 
+点击 _Save configuration_.
++
+--
+// 在首页部分 admin/config/system/site-information.
+image:images/menu-home_new_text_field.png["'FRONT PAGE' area with /home in text field"]
+--
+
+. 返回到主页以验证它是否显示了所配置的内容.
++
+--
+// 将网站首页配置为指向首页内容项目.
+image:images/menu-home_final.png["'FRONT PAGE' with 'Home' (Basic page) content added",width="100%"]
+--
+
+==== 扩展你的知识点
+
+* <<menu-link-from-content>>
+
+* 按照 <<content-create>> 创建一个错误页面404 (page
+not found) or 403 (not authorized) 回应你的网站. 
+步骤在此, 你可以指定它作为错误响应, 在此 _Error pages_ 配置部分.
+
+==== 相关概念
+
+<<menu-concept>>
+
+//==== 其他资源
+
+
+*归因*
+
+撰写和编辑 https://www.drupal.org/u/AnnGreazel[Ann Greazel],
+https://www.drupal.org/u/jerseycheese[Jack Haas], and
+https://www.drupal.org/u/jojyja[Jojy Alphonso] at
+http://redcrackle.com[Red Crackle].
