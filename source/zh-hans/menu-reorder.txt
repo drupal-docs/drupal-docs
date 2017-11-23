@@ -1,0 +1,79 @@
+[[menu-reorder]]
+
+=== 改变导航优先次序
+
+[role="summary"]
+如果重新排序菜单.
+
+(((菜单项目,reor重新排序dering)))
+(((导航,更改菜单项的顺序)))
+
+==== 目标
+
+重新排序菜单中的项目.
+
+==== 必备知识
+
+* <<menu-concept>>
+* <<menu-link-from-content>>
+
+==== 网站的先决条件
+
+”主页面“和“关于页面”必须存在于主导航菜单中. 
+参考<<menu-link-from-content>>.
+
+==== 步骤
+
+. 在此 _Manage_ administrative menu, 导航至 _Structure_ > _Menus_
+(_admin/structure/menu_) 列出您网站目前所有菜单. 
+点击 _Edit Menu_ 从 _Operations_ 下拉菜单 for _Main navigation_. 
+此页面使用上下文链接 (参阅该菜单 <<config-overview>>) .
++
+--
+// 菜单列表中 admin/structure/menu, 主菜单上的编辑菜单
+// 在导航菜单高亮显示.
+image:images/menu-reorder_menu_titles.png["List of menus on the site with 'Main navigation' highlighted",width="100%"]
+--
+
+. 在 _Edit menu_ 中将显示菜单中每个列表被选中 (_Main navigation_).
++
+--
+// 链接列表 admin/structure/menu/manage/main.
+image:images/menu-reorder_edit_menu.png["List of menus items under _Main navigation_"]
+--
+
+. 置于交叉图标上重新排序菜单项目.  
+拖动主菜单在菜单项最上方，以便它首先显示.
++
+--
+// 菜单列表 admin/structure/menu/manage/main, after
+// 改变顺序.
+image:images/menu-reorder_reorder.png["Reordered menu items with warning message about unsaved changes and the _Save_ button"]
+--
+
+. 点击 _Save_.
+
+. 主页显示在主菜单的主导航
+菜单优先显示.
++
+--
+// 重新排序菜单项的主页页眉部分.
+image:images/menu-reorder_final_order.png["Reordered menu items on the home page with 'Home' first and then 'About'"]
+--
+
+==== 扩展你的理解
+
+添加一个名称为 _Contact_, 链接到 the _/contact_ page, 作为你的主导航菜单. 
+联系页面由核心的”联系人“模块提供; 
+您需要编辑它的布局和字段 (参考 <<structure-form-editing>>).
+
+==== 相关概念
+
+<<menu-concept>>
+
+//==== 其他资源
+
+
+*归因*
+
+编辑于 https://www.drupal.org/u/AnnGreazel[Ann Greazel].
