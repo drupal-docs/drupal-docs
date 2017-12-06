@@ -1,0 +1,68 @@
+[[security-concept]]
+
+=== 概念: 安全和定期更新
+
+[role="summary"]
+安全更新概述，如何处理错误及非安全更新。
+
+(((安全,概述)))
+(((更新,概述overview)))
+(((错误,报告)))
+(((安全错误,报告)))
+(((安全团队,概述)))
+
+==== 必备知识
+
+* <<understanding-drupal>>
+* <<understanding-modules>>
+* <<understanding-themes>>
+* <<understanding-project>>
+
+==== 什么是安全更新?
+
+任何软件都会有偶尔的错误, 有时候这些错误也会导致安全性问题. 
+当模块或者安全漏洞被修复时候在你的核心, 模块, 当你使用主题时, 在它们应有发布的安全更新以确保你的网站安全. 
+看见 <<security-announce>>了解如何通过安全更新通知电子邮件, 和 <<security-update-core>>, <<security-update-module>>, and
+<<security-update-theme>> 去了解如何应用这些更新.
+
+==== 什么是安全团队?
+
+Drupal 开源项目有一个志愿者团队在跟踪安全和修复相关的错误并发布安全更新. 
+他们也帮助其他开发人员修复错误, 并为用户维护如何保持其网站安全. 
+您可以了解有关安全团队及其实践的更多信息和开发过程。
+https://www.drupal.org/drupal-security-team/general-information[_Drupal.org_ Security Team] page.
+
+==== 如何报告安全错误?
+
+安全问题一直保持关注并且非常重要, 以便网站在出现严重错误之前尽可能降低损害. 
+如果您在任何软件中发现潜在的安全问题，可以从 _Drupal.org_ website, 关注相关程序报告
+https://www.drupal.org/drupal-security-team/general-information[_Drupal.org_ Security Team] page to report
+it.
+
+==== 什么是常规（非安全）更新?
+
+该框架核心, 模块和主题也会定期更新并添加新功能并修复错误. 
+这些更新不如重要安全性更新. 
+作为一个通用的最佳实践, 更新应该被应用，只要他们不会导致您的网站出现重大问题. 
+在上线网站上应用更新之前最好前测试您的网站的开发副本总是一个好主意. 
+这是因为一些更新可能包括与模块不兼容的更改与您的网站上的模块, 或将破坏您的网站特定功能.
+
+==== 相关主题
+
+* <<security-announce>>
+* <<security-update-core>>
+* <<security-update-module>>
+* <<security-update-theme>>
+* <<install-dev-making>>
+
+==== 其他资源
+
+* https://www.drupal.org/security/secure-configuration[_Drupal.org_ community documentation page "Securing your site"]
+* https://www.drupal.org/security["Security advisories" on Drupal.org]
+* https://www.drupal.org/drupal-security-team/general-information[_Drupal.org_ Security team]
+
+
+*归因*
+
+撰写和编辑由 https://www.drupal.org/u/batigolix[Boris Doesborg]
+and https://www.drupal.org/u/jhodgdon[Jennifer Hodgdon].

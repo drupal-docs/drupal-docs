@@ -1,0 +1,113 @@
+[[security-update-module]]
+
+=== 更新模块
+
+[role="summary"]
+如何使用管理页面并运行数据库更新脚本或使用Drush来更新提供的模块
+
+
+(((模块,更新)))
+(((安全更新,应用)))
+(((贡献模块,更新)))
+(((Drush 工具,用于更新模块)))
+
+==== 目标
+
+更新贡献的模块并运行 _Database updates_ 脚本.
+
+==== 必备知识
+
+* <<security-concept>>
+* <<security-cron-concept>>
+
+==== 网站所需条件
+
+* 已经安装了贡献模块，并有可用的更新。请参阅 <<extend-module-install>> and <<security-announce>>.
+
+*如果您对网站已经上线，您应该在开发环境测试这个过程，然后在生产站点部署。请参阅<<install-dev-making>>.
+
+* 您已经创建了一个完整的站点备份。请参阅 <<prevent-backups>>.
+
+* 如果要使用用户界面，则必备使用核心升级管理模块安装。有关安装核心的说明，请参阅 <<config-install>> for instructions on installing core
+modules.
+
+* 如果您想使用 Drush, Drush 必须安装。请参阅 <<install-tools>>.
+
+==== 步骤
+
+在开始之前，请检查模块特定的更新说明. 
+这是通常在更新涉及第三方模块是必要的. 
+阅读并理解所有模块特定的要求继续进行更新. 
+要查看说明，请检查模块的项目页面 _Read Documentation_ 链接.
+
+要查看更多说明，请从项目中下载 _README.txt_, _INSTALL.txt_, and _UPGRADE.txt_ 随模块的安装附带文件.
+
+// 下载项目页面的部分 Admin Toolbar project page 在 drupal.org.
+image:images/security-update-module-release-notes.png["Release notes link"]
+
+您可以使用管理界面或Drush更新贡献模块。如果您要更新自定义模块而不是提供的模块，您会看到一条消息，说明安装模块主题需要FTP访问您的server_, or if the steps below do not work to obtain the new module files,
+如果下面的步骤无法或者新的模块，请参阅 <<extend-manual-install>>. 
+这是步骤六在下面的管理界面说明中.
+
+===== 使用管理界面
+
+. 把您的网站进入维护模块。请参阅 <<extend-maintenance>>.
+
+. In the _Manage_ 管理菜单, 导航至 _Reports_ >
+_Available updates_ > _Update_ (_admin/reports/updates/update_).
+
+. 找到并检查列表中的模块。点击 _Download these updates_ for the module.
++
+--
+// Update page for theme (admin/reports/updates/update).
+image:images/security-update-module-updates.png["Available updates",width="100%"]
+--
+
+. 点击 _Continue_.
+
+. 点击 _Run database updates_. 如果您手动获取新的模块文件，从这一步开始，通过输入链接访问数据库更新页面
+_example.com/update.php_ .
+
+. 点击 _Continue_ 应用所有更新。数据库更新脚本将会执行.
+
+. 点击 _Administration pages_ 返回到您的管理页面.
+
+. 使您的网站退出维护模块，请参阅 <<extend-maintenance>>.
+
+. 清空缓存 (refer to <<prevent-cache-clear>>).
+
+===== 使用 Drush
+
+. 找到您想要更新的模块的项目名称。这是一个模块项目页面链接。例如，，如果项目链接是
+_https://www.drupal.org/project/admin_toolbar_, 那么项目名称是 "admin_toolbar".
+
+. 运行以下Drush命令，给出项目名称（例如,
+`admin_toolbar`) 作为参数(如果有多个模块需要更新，请添加附件的模块项目)):
++
+----
+drush up admin_toolbar
+----
+
+. 按照屏幕上的说明进行操作.
+
+==== 拓展您的知识
+
+* 更新完成后，查看站点日志 (请参阅 <<prevent-log>>) 检查错误.
+
+* <<security-update-theme>>
+
+//==== 相关概念
+
+==== 其他资源
+
+https://www.drupal.org/node/250790[_Drupal.org_ community documentation page "Updating modules"]
+
+
+*归因*
+
+修订由 https://www.drupal.org/u/batigolix[Boris Doesborgh], and
+https://www.drupal.org/u/hey_germano[Sarah German] at
+https://www.advomatic.com[Advomatic], from
+https://www.drupal.org/node/250790["Updating modules"], copyright 2000-2017 by
+the individual contributors to the
+https://www.drupal.org/documentation[Drupal Community Documentation].

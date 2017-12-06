@@ -1,0 +1,42 @@
+[[security-cron-concept]]
+
+=== 概念: 计划任务
+
+[role="summary"]
+计划任务的概念以及它与unix中的计划任务的不同之处。
+
+(((定期任务,概述)))
+(((自动定期模块,概述)))
+
+//==== 必备知识
+
+==== 什么是计划任务?
+
+为确保您的网站与其模块继续运行良好, 一个组应该定期运行管理操作. 
+该操作称为 _cron_ tasks. 
+计划任务例子: 检查模块和主题更新, 内容搜索索引, 或清理临时文件.
+
+==== 网站的计划任务和unix计划任务之间有什么关系?
+
+基于 Linux/Unix 操作系统有一个可以用于运行计划任务调度系统（cron）来运行定期任务. 
+您可以使用服务器的计划任务程序来计划运行网站的定期任务,或者，您可以使用核心自动计划任务模块来运行任务. 
+您可以在状态报告中检查网站的计划任务的状态.
+
+==== 相关主题
+
+* <<security-cron>>
+* <<prevent-status>>
+
+==== 其他资源
+
+https://www.drupal.org/docs/7/setting-up-cron/overview[_Drupal.org_ community documentation page "Setting up cron"]
+
+
+*归因*
+
+撰写和编辑由
+https://www.drupal.org/u/dianalakatos[Diána Lakatos] at
+https://pronovix.com/[Pronovix],
+https://www.drupal.org/u/dalin[Dave Hansen-Lange] at
+https://www.advomatic.com/[Advomatic],
+and https://www.drupal.org/u/batigolix[Boris Doesborg].
