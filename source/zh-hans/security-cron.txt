@@ -1,0 +1,86 @@
+[[security-cron]]
+
+=== 配置定时维护任务
+
+[role="summary"]
+如何使用核心自动化计划任务模块运行计划任务，或者从站点外部使用它们。
+
+(((自动计划任务模块,配置)))
+(((计划任务,配置)))
+
+==== 目标
+
+检查计划维护任务是否定期运行, 如果没有运行，安装核心自动化计划任务模块或在网站以外运行定时维护任务.
+
+==== 必备知识
+
+<<security-cron-concept>>
+
+// ==== 网站所需条件
+
+==== 步骤
+
+. 查看此 _Status report_ (see <<prevent-status>>) 查看上次计划维护任务何时执行.
++
+如果您使用核心标准安装配置文件(或其他), 那么计划维护任务可能已经运行核心自动化计划任务模块.  
+默认情况下，这些任务每三个小时运行一次.
+
+. 选择是否使用核心自动化计划任务运行定时维护任务模块，或者通过其他方式. 
+对于一些网站核心自动化计划模块可能不适合:
++
+  * 每次有人访问网站上的一个页面，模块检查多久自从计划维护任务上次运行以来，然后有必要运行它们. 
+  如果长时间没有人访问该网站，计划维护任务将不会运行.
+  * 计划维护任务在页面生成后运行. 
+  意味在各种服务器超时之前，运行任务的时间会更少（例如，PHP执行超时）. 
+  如果发生这种情况 (请参阅 <<prevent-log>>) 将显示计划任务无法完成对错误消息.
+  * 有一个小的 https://en.wikipedia.org/wiki/Scalability[scalability] 与核心自动化计划模块相关联. 
+  这是因为网络之一服务器的进程被占用（并且不能服务于其他网页计划维护任务完成）.
+
+. 如果你想使用核心自动计划任务模块，首先确保它是（与核心标准按照配置文件一起安装）; 
+请参阅 <<config-install>> 如果没有安装安装).
++
+接下来，配置模块以控制计划维护任务的频率运行. 
+在此 _Manage_ 管理菜单, 导航至 _Configuration_ > _System_ > _Cron_ (_admin/config/system/cron_). 
+当中选择所需时间间隔 _Cron settings_ section, 然后点击 _Save configuration_.
++
+--
+// Cron 配置页面 (admin/config/system/cron).
+image:images/security-cron.png["Configure the core Automated Cron module"]
+--
+
+. 如果您想从网站外部运行计划维护任务，请卸载核心的自动计划任务 (请参阅 <<config-uninstall>>). 
+接下来，找到. 
+该链接到 _Status report_ (see <<prevent-status>>), and
+in the _Cron_ administration page (见前面的步骤). 
+该链接到:
+_http://www.example.com/cron/0MgWtfB33FYbbQ5UAC3L0LL3RC0PT3RNUBZILLA0Nf1Re_
++
+每当这个链接被访问，计划维护任务将被运行。
+以下调度程序定期访问此链接:
++
+  * https://www.drupal.org/node/23714[The Cron daemon] (Linux, OS X, Solaris,
+  BSD)
+  * https://www.drupal.org/node/31506[Scheduled Tasks] (Windows)
+  * A cron SASS provider (software as a service)
+  * A cron manager provided by your web hosting provider (see the documentation
+  provided by your provider)
+
+
+// ==== 拓展你的知识
+
+==== 相关概念
+
+<<security-concept>>
+
+==== 其他资源
+
+* http://www.drush.org/en/master/cron/[Drush page "Running Drupal cron tasks from Drush"]
+* https://www.drupal.org/docs/7/setting-up-cron/overview[_Drupal.org_ community documentation page "Setting up cron"]
+
+
+*归因*
+
+撰写和编辑由 https://www.drupal.org/u/dalin[Dave Hansen-Lange] at
+https://www.advomatic.com/[Advomatic],
+https://www.drupal.org/u/batigolix[Boris Doesborg],
+and https://www.drupal.org/u/jhodgdon[Jennifer Hodgdon].

@@ -1,0 +1,92 @@
+[[security-update-theme]]
+
+=== 更新主题
+
+[role="summary"]
+如果使用管理页面并运行数据库更新脚本或使用Drush来更新贡献主题。
+
+(((主题,更新)))
+(((安全更新,应用)))
+(((贡献主题,更新)))
+(((Drush 工具,用于更新主题)))
+
+==== 目标Goal
+
+在您的网站上更新贡献的主题并运行 _Database Updates_ 脚本.
+
+==== 必备知识
+
+* <<security-concept>>
+* <<security-cron-concept>>
+
+==== 网站所需条件
+
+* 贡献的主题已经安装，并有可用的更新。请参阅 <<extend-theme-install>> and <<security-announce>>.
+
+* 如果您的网站已经上线，您应该在开发中测试这个过程，然后在生产环境部署。请参阅 <<install-dev-making>>.
+
+* 您已经创建一个完整的站点备份。请参阅 <<prevent-backups>>.
+
+* 如果要使用用户界面，则必须使用核心更新管理模块 <<config-install>> 有关安装核心的说明.
+
+* 如果您想使用Drush，必须安装Drush。请参阅 <<install-tools>>.
+
+==== 步骤
+
+您可以使用管理页面或Drush更新贡献主题。如果您正在更新自定义主题而不是贡献主题，您会看到一条消息，说明安装模块和主题需要FTP访问您的 _Installing modules and themes requires FTP access to
+ server_, 或者如果下面的步骤无法获取新的主题文件，遵循 <<extend-manual-install>>, 然后继续执行步骤六中
+ 以下为管理界面的说明.
+
+===== 使用管理页面
+
+. 把您的网站进入维护模式。请参阅 <<extend-maintenance>>.
+
+. 在此 _Manage_ administrative menu, 导航至 _Reports_ > _Available updates_ > _Update_ (_admin/reports/updates/update_).
+
+. 查找并检查列表中的主题 _Download these updates_ for the theme.
++
+--
+// 更新主题 (admin/reports/updates/update).
+image:images/security-update-theme-updates.png["Available updates",width="100%"]
+--
+
+. 点击 _Continue_.
+
+. 点击 _Run database updates_. 如果您手动获取新的主题文件，从这一步开始，通过输入链接访问数据库更新页面
+_example.com/update.php_ .
+
+. 点击 _Continue_ 运行更新。数据库更新脚本将会执行.
+
+. 点击 _Administration pages_ 返回到您的管理页面.
+
+. 退出维护模式。请参阅 <<extend-maintenance>>.
+
+. 情况缓存 (参阅 <<prevent-cache-clear>>).
+
+===== 使用 Drush
+
+. 找到您想要更新的主题的项目名称，这是一个 主题项目页面的链接
+例如，如果项目链接是 _https://www.drupal.org/project/mayo_, 项目名称是 "mayo".
+
+. 运行以下Drush命令，给出项目名称（例如,`mayo`) 作为参数:
++
+----
+drush up mayo
+----
+
+. 安装屏幕的说明操作.
+
+==== 拓展您的知识点
+
+* 更新完成后，查看站点日志，请参阅 <<prevent-log>>, 检查错误.
+
+* <<security-update-module>>
+
+// ==== 相关概念
+
+// ==== 其他资源
+
+
+*归因*
+
+撰写由 https://www.drupal.org/u/batigolix[Boris Doesborg].

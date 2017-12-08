@@ -1,0 +1,63 @@
+[[security-announce]]
+
+=== 跟踪更新
+
+[role="summary"]
+如何通过了解最新的安全更新来保护网站。
+
+(((更新,跟踪)))
+(((安全更新,跟踪)))
+(((更新管理模块,概括)))
+(((安全公告,通过电子邮件订阅)))
+(((安全公告,在推特上订阅)))
+
+==== 目标
+
+通过更新最新的安全补丁，确保您的网站安全并且是最新的.
+
+==== 必备知识
+
+<<security-concept>>
+
+//==== 网站所需知识
+
+==== 步骤
+
+有几种不同的方法可以接收最新安全补丁通知。
+
+* 在此 _Manage_ administrative menu, 导航至 _Reports_ > _Available
+updates_ > _Settings_. 输入更新时要通知的电子邮件地址可用. 
+您还可以指定是否需要每日或每周更新. 
+点击 _Save configuration_.
+
+* 订阅安全公告邮件列表. 
+需要订阅, 登录到 _Drupal.org_, 转到您的用户个人资料页面并订阅安全性通知
+ _Edit_ > _My newsletters_ 选项卡.
+
+* 在推特关注 @drupalsecurity .
+
+* 订阅RSS摘要
+https://www.drupal.org/security/rss.xml[core security updates],
+https://www.drupal.org/security/contrib/rss.xml[contributed project updates] and
+https://www.drupal.org/security/psa/rss.xml[public service announcements].
+
+//==== 扩展你的理解
+
+==== 相关概念
+
+* <<security-concept>>
+* <<security-update-core>>
+* <<security-update-module>>
+* <<security-update-theme>>
+
+==== 其他资源
+
+* https://www.drupal.org/security["Security advisories" on _Drupal.org_]
+* https://www.drupal.org/drupal-security-team/general-information[_Drupal.org_ Security Team]
+* https://twitter.com/drupalsecurity[@drupalsecurity on Twitter]
+
+
+*Attribu归因tions*
+
+撰写于 https://www.drupal.org/u/hey_germano[Sarah German] at
+https://www.advomatic.com[Advomatic].

@@ -1,0 +1,118 @@
+[[security-update-core]]
+
+=== 更新核心软件
+
+[role="summary"]
+如何使用管理页面或命令行更新核心软件.
+
+(((核心模块,更新)))
+(((命令行工具,用于更新核心软件)))
+(((管理界面,用于更新核心软件)))
+
+==== 目标
+
+更新核心软件，无论是通过管理界面还是通过使用命令行.
+
+//==== 必备知识
+
+==== 网站所需条件
+
+* 如果您想使用命令行，必须安装命令行（Drush） 请参阅 <<install-tools>>.
+
+* 如果你的网站上线中，您应该在开发环境测试，然后在线上部署时运行，请参阅<<install-dev-making>>.
+
+==== 步骤
+
+. 做一个完整的网站备份。请参阅 <<prevent-backups>>.
+
+. 以文本方式打开 _settings.php_ (_/sites/default/settings.php_) . 
+找到 _$settings['update_free_access']_ variable 这行. 
+默认情况下 由于安全原因 ，它被设置为 "FALSE" . 将设置更改为 "TRUE":
++
+----
+$settings['update_free_access'] = TRUE;
+----
+
+. 禁用您的网站可能正在运行的任何缓存技术（memchache，varnish等）.
+
+. 把您的网站进入维护模块。请参阅 <<extend-maintenance>>.
+
+. 如果您使用Composer来管理依赖关系，或使用Git，请跳过下一步，而是参阅 <<install-composer>> 获取相关更新的文件 _update.php_ step.
+
+.下载 tar.gz or zip 最新版本 Drupal
+8.x core from https://www.drupal.org/project/drupal[_Drupal.org_ Drupal Core
+Downloads]. 参阅 <<install-prepare>> 查找有关最新详细信息.
+
+. 上传压缩包到您的虚拟主机服务器.
+
+. 将压缩包解压缩到服务器上的临时目录（应该为托管网站目录以外）. 
+可以使用您的主机控制面板文件管理器来提取文件。或者，如果您有终端访问您的托管服务器（运行Linux系统的）:
+您可以使用一个命令，
+例如：
++
+----
+tar -xzf drupal-8.3.2.tar.gz
+----
+
+. 您也可以使用Drush来下载压缩包并一步提取到服务器上的临时目录并输入以下命令:
++
+----
+drush dl drupal
+----
+
+. 在您的站点托管目录中，删除 _core_ and _vendor_ 目录,
+以及不在子目录中的所有文件, 包括 _.htaccess_,
+_composer.json_, and _autoload.php_. 不要删除自定义配置和自定义的文件，因为可能会丢失自定义功能.
+
+. 复制此 _core_ and _vendor_ 以及非自定义配置文件/非自定义目录
+您的网站目录.
+
+. 使用以下任一操作运行 _update.php_ :
++
+  * 访问 _http://www.example.com/update.php_ 在您的浏览器 (where
+  _www.example.com_ is your site's URL). 点击 _Continue_ 主页面运行更新并成功完成.
+  * 运行以下Drush命令: `drush updb`
+
+. 如果出现任何错误或警告 _update.php_ 请重新运行直到所有更新都成功完成.
+
+. 在 文本编辑器中打开 _settings.php_ (_/sites/default/settings.php_) 。 
+找到 _$settings['update_free_access']_ 变量更改为 "FALSE":
++
+----
+$settings['update_free_access'] = FALSE;
+----
+
+. 点击 _Administration pages_ 返回到您的管理页面.
+
+. 使您的网那个站退出维护模块。请参阅 <<extend-maintenance>>.
+
+. 清空缓存。请参阅 <<prevent-cache-clear>>.
+
+. 重新启用您在步骤三中禁用的任何缓存技术.
+
+. 您保持网站运行在最新版本. 
+您可以通过检查 _Status report_ 验证当前 。 (请参阅 <<prevent-status>>).
+
+==== 拓展您的知识
+
+* <<install-tools>>
+* <<install-dev-making>>
+* <<prevent-backups>>
+
+==== 相关概念
+
+<<prevent-status>>
+
+==== 其他资源
+
+* https://www.drupal.org/project/drupal["Drupal Core Downloads" page on _Drupal.org_]
+* https://www.drupal.org/project/registry_rebuild["Registry Rebuild" page on _Drupal.org_]
+* The file _/core/UPDATE.txt_ within your installation.
+
+
+*归因*
+
+撰写和编辑由 https://www.drupal.org/u/surendramohan[Surendra Mohan],
+https://www.drupal.org/u/batigolix[Boris Doesborgh], and
+https://www.drupal.org/u/jojyja[Jojy Alphonso] at
+http://redcrackle.com[Red Crackle].
